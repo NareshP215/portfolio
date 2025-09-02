@@ -27,7 +27,7 @@ const Header = () => {
         transition={{ duration: 0.8, delay: 0.5 }}
         className="text-3xl sm:text-6xl lg:text-[66px] font-Ovo"
       >
-        ML developer based in Ahemdabad.
+        AI/ML & Full-Stack Developer
       </motion.h1>
       <motion.p
         initial={{ opacity: 0 }}
@@ -35,10 +35,11 @@ const Header = () => {
         transition={{ duration: 0.6, delay: 0.7 }}
         className="max-w-2xl mx-auto font-Ovo"
       >
-        I create beautiful, fast & modern websites, applications and everything
-        in between. and I love what I do. if you like my work, let's talk. and
-        I'm always open to discussing new projects, creative ideas or
-        opportunities to be part of your visions.
+        I design and build scalable web platforms, intelligent applications, and
+        modern digital experiences. Passionate about combining machine learning
+        with full-stack development, I create fast, reliable, and user-focused
+        solutions. Always open to collaboration, new ideas, and innovative
+        projects.
       </motion.p>
 
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">

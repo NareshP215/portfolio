@@ -54,10 +54,13 @@ const About = () => {
           className="flex-1"
         >
           <p className="mb-10 max-w-2xl font-Ovo">
-            I am an experienced Frontend Developer with over a decade of
-            professional expertiese in the field. Throufhout my career, I have
-            had the privilaeg fo collaboarating with prestigious orgnaixaions,
-            conribuing to theis success and growoth.
+            I’m a Full-Stack & AI/ML Developer passionate about building
+            scalable web applications and intelligent machine learning
+            solutions. With hands-on experience across frontend, backend, and
+            AI, I’ve delivered 10+ real-world projects that blend technology
+            with user-focused design. My focus is on crafting fast, reliable,
+            and innovative software that solves real-world problems while
+            delivering seamless user experiences.
           </p>
 
           <motion.ul
