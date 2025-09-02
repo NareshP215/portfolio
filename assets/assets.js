@@ -36,6 +36,7 @@ import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import postgray from "./postgresql.jpg";
 import pycharm from "./pycharm.jpg";
 import postman from "./postman.png"
+import tensorflow from "./tensorflow.jpg"
 
 export const assets = {
     user_image,
@@ -75,37 +76,42 @@ export const assets = {
     right_arrow_bold_dark,
     postgray,
     pycharm,
-    postman
+    postman,
+    tensorflow
 };
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/work-1.png',
+        title: 'Self Driving Car Simulation',
+        description: 'Self-Driving AI',
+        bgImage: '/selfdrive.jpeg',
+        link: "https://youtu.be/Zr84TbaDZfM?si=1Wuca47Z1Y_YBQ7g",
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: '/work-2.png',
+        title: 'MediCare',
+        description: 'AI Healthcare',
+        bgImage: '/medicare.jpg',
+        link: "https://medicare-frontend-ten.vercel.app"
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
+        title: 'CarCruise',
+        description: 'Car Rental',
         bgImage: '/work-3.png',
+        link: "https://carcruise.onrender.com"
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
+        title: 'AI Mouse & Painter',
+        description: 'AI Art & Virtual Mouse',
         bgImage: '/work-4.png',
+        link: "https://github.com/NareshP215/AI-Virtual-Mouse-AI-Virtual-Painter"
     },
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.web_icon, title: 'Web App Development', description: 'Building scalable and responsive web applications with modern frameworks like React.js and Node.js to deliver fast and user-friendly solutions.', link: 'https://github.com/NareshP215/CarCruise' },
+    { icon: assets.mobile_icon, title: 'AI & Machine Learning', description: 'Designing intelligent ML models for prediction, automation, and computer vision using Python, TensorFlow, and PyTorch.', link: 'https://github.com/NareshP215/Self-Driving-Car-Simulation' },
+    { icon: assets.ui_icon, title: 'Backend Development', description: 'Creating secure and high-performance APIs with Node.js, Express.js, and Python to ensure seamless system integration.', link: 'https://github.com/NareshP215/MediCare' },
+    { icon: assets.graphics_icon, title: 'Database Management', description: 'Managing efficient and scalable databases with MongoDB, Firebase, and SQL for reliable data-driven applications.', link: 'https://github.com/NareshP215/' },
 ]
 
 export const infoList = [
@@ -115,5 +121,5 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.vscode, assets.pycharm, assets.postman, assets.mongodb, assets.postgray, assets.git,
+    assets.vscode, assets.pycharm, assets.postman, assets.mongodb, assets.postgray, assets.git, assets.tensorflow
 ];

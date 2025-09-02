@@ -34,8 +34,10 @@ const Skills = () => {
         transition={{ duration: 0.5, delay: 0.7 }}
         className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo"
       >
-        I am a frontend developer from ahemdabad, India with 10 years of
-        exoerience in multiple companies kike Microsoft, Tesla and Apple.
+        I am a Full-Stack & AI/ML Developer with hands-on experience in building
+        web applications, intelligent ML models, and modern user experiences.
+        Over the years, I’ve worked on 10+ real-world projects, combining
+        frontend, backend, and AI to deliver impactful solutions.
       </motion.p>
 
       <motion.div
@@ -53,8 +55,12 @@ const Skills = () => {
             <Image src={icon} alt="" className="w-10" />
             <h3 className="text-lg my-4 text-gray-700">{title}</h3>
             <p className="text-sm text-gray-600 leading-5">{description}</p>
-            <a href={link} className="flex items-center gap-2 text-sm mt-5">
-              Read more{" "}
+            <a
+              href={link}
+              target="_blank"
+              className="flex items-center gap-2 text-sm mt-5"
+            >
+              View{" "}
               <Image src={assets.right_arrow} className="w-4" alt="" />
             </a>
           </motion.div>
