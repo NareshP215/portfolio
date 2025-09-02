@@ -35,8 +35,12 @@ import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import postgray from "./postgresql.jpg";
 import pycharm from "./pycharm.jpg";
-import postman from "./postman.png"
-import tensorflow from "./tensorflow.jpg"
+import postman from "./postman.png";
+import tensorflow from "./tensorflow.jpg";
+import aiml from "./aiml.png";
+import backend from "./backend.png";
+import database from "./database.png";
+import web from "./web.png";
 
 export const assets = {
     user_image,
@@ -66,7 +70,7 @@ export const assets = {
     menu_white,
     close_black,
     close_white,
-    web_icon,
+    web,
     mobile_icon,
     ui_icon,
     graphics_icon,
@@ -77,7 +81,10 @@ export const assets = {
     postgray,
     pycharm,
     postman,
-    tensorflow
+    tensorflow,
+    aiml,
+    database,
+    backend
 };
 
 export const workData = [
@@ -108,10 +115,10 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web App Development', description: 'Building scalable and responsive web applications with modern frameworks like React.js and Node.js to deliver fast and user-friendly solutions.', link: 'https://github.com/NareshP215/CarCruise' },
-    { icon: assets.mobile_icon, title: 'AI & Machine Learning', description: 'Designing intelligent ML models for prediction, automation, and computer vision using Python, TensorFlow, and PyTorch.', link: 'https://github.com/NareshP215/Self-Driving-Car-Simulation' },
-    { icon: assets.ui_icon, title: 'Backend Development', description: 'Creating secure and high-performance APIs with Node.js, Express.js, and Python to ensure seamless system integration.', link: 'https://github.com/NareshP215/MediCare' },
-    { icon: assets.graphics_icon, title: 'Database Management', description: 'Managing efficient and scalable databases with MongoDB, Firebase, and SQL for reliable data-driven applications.', link: 'https://github.com/NareshP215/' },
+    { icon: assets.web, title: 'Web App Development', description: 'Building scalable and responsive web applications with modern frameworks like React.js and Node.js to deliver fast and user-friendly solutions.', link: 'https://github.com/NareshP215/CarCruise' },
+    { icon: assets.aiml, title: 'AI & Machine Learning', description: 'Designing intelligent ML models for prediction, automation, and computer vision using Python, TensorFlow, and PyTorch.', link: 'https://github.com/NareshP215/Self-Driving-Car-Simulation' },
+    { icon: assets.backend, title: 'Backend Development', description: 'Creating secure and high-performance APIs with Node.js, Express.js, and Python to ensure seamless system integration.', link: 'https://github.com/NareshP215/MediCare' },
+    { icon: assets.database, title: 'Database Management', description: 'Managing efficient and scalable databases with MongoDB, Firebase, and SQL for reliable data-driven applications.', link: 'https://github.com/NareshP215/' },
 ]
 
 export const infoList = [

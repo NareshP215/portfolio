@@ -52,7 +52,12 @@ const Skills = () => {
             key={index}
             className="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-[4px_4px_0_#000] cursor-pointer hover:bg-[#fcf4ff] hover:translate-y-1 duration-500"
           >
-            <Image src={icon} alt="" className="w-10" />
+            <Image
+              src={icon}
+              alt=""
+              className="w-10"
+              style={{ borderRadius: 7, width:50 }}
+            />
             <h3 className="text-lg my-4 text-gray-700">{title}</h3>
             <p className="text-sm text-gray-600 leading-5">{description}</p>
             <a
@@ -60,8 +65,7 @@ const Skills = () => {
               target="_blank"
               className="flex items-center gap-2 text-sm mt-5"
             >
-              View{" "}
-              <Image src={assets.right_arrow} className="w-4" alt="" />
+              View <Image src={assets.right_arrow} className="w-4" alt="" />
             </a>
           </motion.div>
         ))}
