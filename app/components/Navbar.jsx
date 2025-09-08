@@ -77,11 +77,11 @@ const navbar = ({ isDarkMode, setisDarkMode }) => {
             className="cursor-pointer"
             onClick={() => setisDarkMode((prev) => !prev)}
           >
-            <Image
+            {/* <Image
               src={isDarkMode ? assets.sun_icon : assets.moon_icon}
               alt=""
               className="w-6"
-            />
+            /> */}
           </button>
 
           <a
